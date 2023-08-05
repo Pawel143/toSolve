@@ -3,3 +3,5 @@ spring:
    username: "postgres"
    password: "qwerty"
    url: "jdbc:postgresql://localhost/CarSharingData"
+  jpa:
+    show-sql: false

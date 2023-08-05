@@ -3,7 +3,9 @@ package com.example.carsharing.repository.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import javax.persistence.Entity;
+import org.springframework.lang.Nullable;
+
+
 import javax.persistence.*;
 
 @Entity
@@ -12,16 +14,16 @@ import javax.persistence.*;
 @NoArgsConstructor
 public class Customer {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
     private Long ID;
-    @Column(name = "customer_name")
+    @Column(name = "CUSTOMER_NAME")
     private String cusName;
     @Column(name = "RENTED_CAR_ID")
+    @Nullable
     private Integer rentedCarId;
 
-    public Customer(Long ID, String cusName, Integer rentedCarId) {
-        this.ID = ID;
+    public Customer(String cusName, @Nullable Integer rentedCarId) {
         this.cusName = cusName;
         this.rentedCarId = rentedCarId;
     }

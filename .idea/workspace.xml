@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78a27270-997b-4369-9042-4871f78be4f2" name="Changes" comment="" />
+    <list default="true" id="78a27270-997b-4369-9042-4871f78be4f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/car-sharing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-sharing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-sharing/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/Service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/repository/carRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/repository/CarJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/repository/companyJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/repository/CompanyJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/repository/customerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/repository/CustomerJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/repository/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/repository/entity/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/repository/entity/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/repository/entity/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/repository/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/repository/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-sharing/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/car-sharing/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-sharing/src/test/java/com/example/carsharing/CaeSharingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-sharing/src/test/java/com/example/carsharing/CaeSharingApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,36 +36,48 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Pawel143"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5d53732d-0e90-4f9f-b39f-c864108c6dc0" />
+        <option name="url" value="https://github.com/Pawel143/toSolve.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/repository/customerRepository.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/car-sharing/src/main/java/com/example/carsharing/service/CarService.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2Shk6ylJu20VBasvfBChMyMiSji" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/Desktop/car-sharing&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/PC/Desktop/car-sharing/car-sharing",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "configurable.group.editor"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.carsharing.Main" />
@@ -78,5 +108,15 @@
       <updated>1689606028717</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

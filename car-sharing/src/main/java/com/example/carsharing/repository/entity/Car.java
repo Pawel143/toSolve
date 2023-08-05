@@ -2,10 +2,9 @@ package com.example.carsharing.repository.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
-import javax.persistence.Entity;
 
 import javax.persistence.*;
+
 
 @Entity
 @Table(name = "CAR")
@@ -13,18 +12,16 @@ import javax.persistence.*;
 @NoArgsConstructor
 public class Car {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
-    private Long ID;
+    Long ID;
     @Column(name = "car_name")
-    private String carName;
+    String carName;
     @Column(name = "company_id")
-    private Long companyId;
+    Long companyId;
 
 
-
-    public Car(long ID, String carName, long companyId) {
-        this.ID = ID;
+    public Car(String carName, Long companyId) {
         this.carName = carName;
         this.companyId = companyId;
     }

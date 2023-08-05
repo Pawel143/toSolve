@@ -44,10 +44,20 @@ mail varchar(50) unique
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="60e07000-3ca4-484a-998c-d964ccb34876" object-ref="schemas/public/tables/company" />
+      <object connection-id="60e07000-3ca4-484a-998c-d964ccb34876" object-ref="schemas/public/tables/car" />
+      <object connection-id="60e07000-3ca4-484a-998c-d964ccb34876" object-ref="schemas/public/tables/customer" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="60e07000-3ca4-484a-998c-d964ccb34876" dataset="public.car" active-filter-id="" />
+    <filter-actions connection-id="60e07000-3ca4-484a-998c-d964ccb34876" dataset="public.company" active-filter-id="EMPTY_FILTER">
+      <filter id="e566928c-364e-44e7-84e9-6f5921b7ec30" name="Filter" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="60e07000-3ca4-484a-998c-d964ccb34876" dataset="public.customer" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="60e07000-3ca4-484a-998c-d964ccb34876" dataset="public.car" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
